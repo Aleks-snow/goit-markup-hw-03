@@ -209,10 +209,7 @@ button {
 /* hero title */
 
 .section-one {
-  padding-top: 120px;
-  padding-bottom: 120px;
-  padding-right: 156px;
-  padding-left: 156px;
+  padding: 120px 156px;
 }
 
 .section-one-list {
@@ -241,10 +238,8 @@ button {
 
 .team {
   background-color: #f4f4fd;
-  padding: 120px 0 120px;
-  padding-right: 156px;
-  padding-left: 156px;
-  flex-basis: calc((100% - 72px) / 4);
+  padding: 120px 156px;
+   
 }
 
 .team-list {
@@ -252,11 +247,11 @@ button {
   display: flex;
   gap: 24px;
   justify-content: center;
-
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .section-portfolio{
-  padding: 120px 0 120px;
+  padding: 120px 0;
 }
 
 .team-title {
@@ -311,7 +306,7 @@ button {
   flex-wrap: wrap;
   gap: 48px 24px;
   justify-content: center;
-  padding: 120px 0 120px;
+  padding: 120px 0;
  
   }
 
