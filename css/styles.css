@@ -236,13 +236,15 @@ button {
   line-height: 1.5;
   letter-spacing: -0.02em;
 }
+/* team*/
+
 
 .team {
   background-color: #f4f4fd;
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding: 120px 0 120px;
   padding-right: 156px;
   padding-left: 156px;
+  flex-basis: calc((100% - 72px) / 4);
 }
 
 .team-list {
@@ -250,6 +252,11 @@ button {
   display: flex;
   gap: 24px;
   justify-content: center;
+
+}
+
+.section-portfolio{
+  padding: 120px 0 120px;
 }
 
 .team-title {
@@ -261,7 +268,7 @@ button {
   letter-spacing: -0.02em;
   text-transform: capitalize;
   margin-bottom: 72px;
-
+  
 }
 
 .team-player {
@@ -297,16 +304,14 @@ button {
 
 /* section portfolio */
 
-.section-portfolio {
-  padding-top: 120px;
-  padding-bottom: 120px;
- }
+
 
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
   gap: 48px 24px;
   justify-content: center;
+  padding: 120px 0 120px;
  
   }
 
@@ -328,7 +333,7 @@ button {
   text-align: center;
   line-height: 1.11;
   text-transform: capitalize;
-  padding: 72px;
+  margin-bottom: 72px;
 }
 
 .portfolio-service {
