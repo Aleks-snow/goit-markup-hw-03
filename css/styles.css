@@ -2,7 +2,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
-  margin: 0;
+  
 }
 
 ul {
@@ -210,7 +210,11 @@ button {
 /* Our Advantage */
 
 .section-one {
-  padding: 120px 156px;
+ padding: 120px 0;
+}
+
+.section-one-item {
+  width: 264px;
 }
 
 .section-one-list {
@@ -241,7 +245,7 @@ button {
 
 .team {
   background-color: #f4f4fd;
-  padding: 120px 156px;
+  padding: 120px 0;
    
 }
 
