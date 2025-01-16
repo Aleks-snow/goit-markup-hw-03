@@ -2,6 +2,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
+  margin: 0;
 }
 
 ul {
@@ -206,7 +207,7 @@ button {
   overflow: hidden;
 }
 
-/* hero title */
+/* Our Advantage */
 
 .section-one {
   padding: 120px 156px;
@@ -216,6 +217,8 @@ button {
   display: flex;
   gap: 24px;
   justify-content: center;
+  flex-basis: calc((100% - 72px) / 4);
+  
 }
 
 .section-one-title {
@@ -249,6 +252,8 @@ button {
   justify-content: center;
   flex-basis: calc((100% - 72px) / 4);
 }
+
+/* portfolio*/
 
 .section-portfolio{
   padding: 120px 0;
