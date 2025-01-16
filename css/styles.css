@@ -251,12 +251,7 @@ button {
   gap: 24px;
   justify-content: center;
   flex-basis: calc((100% - 72px) / 4);
-}
-
-/* portfolio*/
-
-.section-portfolio{
-  padding: 120px 0;
+  
 }
 
 .team-title {
@@ -267,7 +262,7 @@ button {
   text-align: center;
   letter-spacing: -0.02em;
   text-transform: capitalize;
-  margin-bottom: 72px;
+  margin-bottom: 72px;  
   
 }
 
@@ -304,6 +299,10 @@ button {
 
 /* section portfolio */
 
+.section-portfolio{
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
 
 
 .portfolio-list {
@@ -311,11 +310,8 @@ button {
   flex-wrap: wrap;
   gap: 48px 24px;
   justify-content: center;
-  padding: 120px 0;
- 
+  
   }
-
-
 
 .portfolio-wrapper {
   border-bottom: 1px solid #e7e9fc;
