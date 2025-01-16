@@ -35,14 +35,23 @@ button {
   cursor: pointer;
 }
 
+.container{
+  width: 1158px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto
+}
+
+
+
+/* Header*/
+
 .header-container{
   width: 1158px;
   padding-right: 15px;
   padding-left: 15px;
   margin: 0 auto;
 }
-
-/* Header*/
 
 .header {
   border-bottom: 1px solid #E7E9FC;
@@ -175,6 +184,7 @@ button {
   display: block;
   margin: 0 auto;
   min-width: 169px;
+  height: 56px;
 }
 
 .hero-button:hover,
@@ -208,6 +218,7 @@ button {
 .section-one-list {
   display: flex;
   gap: 24px;
+  justify-content: center;
 }
 
 .section-one-title {
@@ -238,6 +249,7 @@ button {
   background-color: #f4f4fd;
   display: flex;
   gap: 24px;
+  justify-content: center;
 }
 
 .team-title {
@@ -356,9 +368,9 @@ button {
   line-height: 1.17;
   letter-spacing: -0.03em;
   text-transform: uppercase;
-  display: block;
+  display: inline-block;
   margin-bottom: 16px;
-  padding-left: 156px;
+  
 
 }
 
@@ -378,5 +390,5 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: -0.02em;
-  padding-left: 156px;
+  width: 264px;
 }
